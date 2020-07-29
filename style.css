@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100%;
+    min-width: 100%;
+    font-family: 'Satisfy', cursive;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+
+.main-contain{
+    background-image: linear-gradient(45deg,rgb(148, 71, 71), rgb(145, 214, 145)),url("/quran-36704.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    font-size: 4rem;
+    color: #e7bcd0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Indie Flower', cursive;
+
+}
+p{
+    font-size: 2.5rem;
+    color:#94c992;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    max-width: 400px;
+    /* margin: 0 auto; */
+}
+
+
+.container-one{
+    background-image: linear-gradient(to bottom right,rgb(235, 151, 151),rgb(148, 148, 230)),url("/crowd-of-people-gathering-near-jama-masjid-delhi-2989625.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+    background-position: center;
+    
+}
+
+.one-text {
+    color: rgb(12, 11, 11);
+
+}
+.two-text{
+    color: rgb(65, 37, 37);
+}
+
